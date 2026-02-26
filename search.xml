@@ -17,19 +17,6 @@
     
     
     <entry>
-      <title>训练赛</title>
-      <link href="/2026/02/26/%E8%AE%AD%E7%BB%83%E8%B5%9B/"/>
-      <url>/2026/02/26/%E8%AE%AD%E7%BB%83%E8%B5%9B/</url>
-      
-        <content type="html"><![CDATA[<p>发现hint是屏幕太小了，推测是不是高度爆破<br>拖入winhex当中进行高度爆破发现得到了flag</p><p>LSB<br>用stegsolve打开图片发现当rgb等于0的时候隐藏的东西</p><p>所以用data extract进行下一步</p><p>保存得到了这个二维码，QR Reaserch扫描这个二维码得到最终的flag</p><p>你竟然赶我走<br>用010打开文件在文件的末尾发现flag<br>flag{stego_is_s0_bor1ing}</p><p>乌镇峰会种图<br>用010打开图片发现在文件末端有flag</p><p>来首歌吧<br>用Audacity软件打开这段音频</p><p>发现上面类似于摩斯电码，短的为点，长的为杠</p><p>….. -… -.-. —-. ..— ….. -…. ….- —-. -.-. -… —– .—- —.. —.. ..-. ….. ..— . -…. .—- –… -.. –… —– —-. ..— —-. .—- —-. .—- -.-.</p><p>用在线工具转码</p><p>得到flag</p><p>藏在文件中的秘密<br>是一张图片，用记事本打开，发现flag</p><p>wireshark</p><p>根据提示直接搜索POST提交的流量，找到了密码</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2025/11/02/hello-world/"/>
       <url>/2025/11/02/hello-world/</url>
